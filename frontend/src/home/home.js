@@ -33,7 +33,7 @@ function Home() {
                                     <a href="/login">Login</a>
                                 </button>
                                 <button className="background__content__buttons__button">
-                                    <a href="/signup">Sign Up</a>
+                                    <a href="/register">Register</a>
                                 </button>
                             </div>
                         ) : (

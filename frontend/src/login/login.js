@@ -8,6 +8,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { useState, useEffect } from "react";
 import Header from "../components/header/header";
+import tamema from "../images/t..png"
 import "./login.css"
 
 
@@ -145,12 +146,12 @@ function Login({ registerParam }) {
               register ? "login-container signup-style" : "login-container"
             }
           >
-            {/* <div className="img-container">
+            <div className="img-container">
               <div className="img">
-                <img className="icon-img" src={tamema} alt="tamema" />
-                <FontAwesomeIcon className='icon-img' icon={faUser} />
+                {/* <img className="icon-img" src={tamema} alt="tamema" /> */}
+                {/* <FontAwesomeIcon className='icon-img' icon={faUser} /> */}
               </div>
-            </div> */}
+            </div>
             <div className="form-container">
               <div className="inputs-container">
                 <div className="form-wrapper">

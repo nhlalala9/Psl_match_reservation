@@ -7,6 +7,7 @@ import {
   faVenusMars,
 } from "@fortawesome/free-solid-svg-icons";
 import { useState, useEffect } from "react";
+import Dropdown from "react-dropdown";
 import Header from "../components/header/header";
 import tamema from "../images/t..png"
 import "./login.css"
@@ -239,7 +240,7 @@ function Login({ registerParam }) {
                           icon={faVenusMars}
                         />
                       </div>
-                      {/* <div className="gender">
+                      <div className="gender">
                         <Dropdown
                           className="Dropdown"
                           name="gender"
@@ -248,7 +249,7 @@ function Login({ registerParam }) {
                           placeholder="Select your gender"
                          
                         />
-                      </div> */}
+                      </div>
                     </div>
                  
   

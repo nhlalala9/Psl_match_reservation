@@ -32,6 +32,20 @@ import TSGalaxy from "./src/images/flags/TS_Galaxy.png";
 import RoyalAM from "./src/images/flags/Royal_AM_F.C.png";
 
 
-export default function Flags(){
+export default function Flags(teams) {
+    switch (teams) {
+        case "Chiefs":
+            return Chiefs;
+        case "Amazulu":
+            return Amazulu;
+        case "Sundowns":
+            return Sundowns;
+        case "Pirates":
+            return Pirates;
+        case "Chippa":
+            return Chippa;
+        
+
+    }
 
 } 

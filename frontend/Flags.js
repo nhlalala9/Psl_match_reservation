@@ -22,7 +22,14 @@ import Swallows from "./src/images/flags/Moroka_Swallows_F.C.png";
 import Richards from "./src/images/flags/Richards_Bay_F.C.png";
 // Sekhukhune
 import Sekhukhune from "./src/images/flags/sekhukhune.png";
-
+// Stellenbosch
+import Stellenbosch from "./src/images/flags/StellenboschFC.png";
+// Supersport
+import Supersports from "./src/images/flags/supersport.png";
+// TS galaxy
+import TSGalaxy from "./src/images/flags/TS_Galaxy.png";
+// Royal AM
+import RoyalAM from "./src/images/flags/Royal_AM_F.C.png";
 
 
 export default function Flags(){

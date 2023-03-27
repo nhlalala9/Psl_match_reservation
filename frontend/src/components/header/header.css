@@ -60,12 +60,12 @@
     font-weight: bold;
     font-size: 20px;
   }
-  .header__menuRight a {
+  /* .header__menuRight a {
     text-decoration: underline;
   }
   .header__menuLeft a {
     text-decoration: underline;
-  }
+  } */
   
   .cart-icon {
     width: 30px;

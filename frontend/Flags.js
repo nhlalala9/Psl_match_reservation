@@ -44,7 +44,31 @@ export default function Flags(teams) {
             return Pirates;
         case "Chippa":
             return Chippa;
+        case "Arrows":
+            return Arrows;
+        case "Maritzburg":
+            return Maritzburg;
+        case "Marumo":
+            return Marumo;
+        case "CapeTownCity":
+            return CapeTownCity;
+        case "Swallows":
+            return Swallows;
+        case "Richards":
+            return Richards;
+        case "Sekhukhune":
+            return Sekhukhune;
+        case "Stellenbosch":
+            return Stellenbosch;
+        case "Supersports":
+            return Supersports;
+        case "TSGalaxy":
+            return TSGalaxy;
+        case "RoyalAM":
+            return RoyalAM;
         
+        default:
+            return null;
 
     }
 

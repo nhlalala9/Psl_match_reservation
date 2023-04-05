@@ -26,6 +26,7 @@ function Home() {
                             <br />
                             <br />
                             Match Tickets
+                            
                         </h1>
                         {!token ? (
                             <div className="background__content__buttons">

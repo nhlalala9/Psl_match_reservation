@@ -25,7 +25,7 @@ function Home() {
                             South Africa 2022/2023
                             <br />
                             <br />
-                            Tickets
+                            Match Tickets
                         </h1>
                         {!token ? (
                             <div className="background__content__buttons">

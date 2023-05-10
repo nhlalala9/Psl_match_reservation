@@ -28,7 +28,7 @@ function Header() {
                 {!token ? (
                     <div className="header__menuRight">
                         <a href="/login">Login</a>
-                        <a href="/signup">Register</a>
+                        <a href="/register">Register</a>
                     </div>
                 ) : (
                     <div className="header__menuRight">
